@@ -10,4 +10,11 @@ class CustomTextStyle {
     fontSize: 16,
     color: Colors.black,
   );
+
+  static const TextStyle bottomNavigationText = TextStyle(
+    fontSize: 14,
+
+    // color: AppColors,
+    fontWeight: FontWeight.bold,
+  );
 }

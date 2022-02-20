@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: appConfig.showDebugBanner,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Mulish-Regular',
       ),
 
       // themeMode: themeController.isDarkMode ? ThemeMode.dark : ThemeMode.light,

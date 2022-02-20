@@ -27,18 +27,16 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  carousel_slider: ^4.0.0
   cupertino_icons: ^1.0.2
+  dots_indicator: ^2.1.0
   flutter:
     sdk: flutter
+  flutter_svg: ^1.0.3
   get: ^4.6.1
+  rubber: ^1.0.1
 
 dev_dependencies:
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
@@ -53,6 +51,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/svg/
+    - assets/images/png/
+
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
@@ -65,10 +67,30 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Mulish-Light
+      fonts:
+        - asset: assets/fonts/Mulish-Light.ttf
+
+    - family: Mulish-Regular
+      fonts:
+        - asset: assets/fonts/Mulish-Regular.ttf
+
+    - family: Mulish-SemiBold
+      fonts:
+        - asset: assets/fonts/Mulish-SemiBold.ttf
+
+    - family: Mulish-Bold
+      fonts:
+        - asset: assets/fonts/Mulish-Bold.ttf
+
+    - family: Mulish-ExtraBold
+      fonts:
+        - asset: assets/fonts/Mulish-ExtraBold.ttf
+
+    - family: OCR
+      fonts:
+        - asset: assets/fonts/OCRAEXT.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
